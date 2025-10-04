@@ -4,7 +4,7 @@ A modern, responsive real-time chat application built with the MERN stack (Mongo
 
 ![Chat App](https://img.shields.io/badge/MERN-Stack-green) ![Socket.io](https://img.shields.io/badge/Socket.io-Real--time-blue) ![React](https://img.shields.io/badge/React-19.1.1-blue) ![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
 
-## 🚀 Features
+## Features
 
 - **Real-time Messaging**: Instant message delivery using Socket.io
 - **User Authentication**: Secure JWT-based authentication system
@@ -15,7 +15,7 @@ A modern, responsive real-time chat application built with the MERN stack (Mongo
 - **User Profiles**: Manage profile pictures and bio information
 - **Search Functionality**: Find and connect with other users
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 19.1.1** - Modern React with hooks
@@ -37,7 +37,7 @@ A modern, responsive real-time chat application built with the MERN stack (Mongo
 - **Cloudinary 2.7.0** - Image storage and optimization
 - **CORS 2.8.5** - Cross-origin resource sharing
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 chat-app/
@@ -66,7 +66,7 @@ chat-app/
 └── chat-app-assets/       # Additional assets
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -130,7 +130,7 @@ chat-app/
    - Frontend: `http://localhost:5173`
    - Backend API: `http://localhost:5000`
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/signup` - User registration
@@ -148,7 +148,7 @@ chat-app/
 - `GET /api/users/:id` - Get user by ID
 - `PUT /api/users/profile` - Update user profile
 
-## 🔌 Socket.io Events
+## Socket.io Events
 
 ### Client to Server
 - `sendMessage` - Send a new message
@@ -159,7 +159,7 @@ chat-app/
 - `getonlineusers` - Get list of online users
 - `messagesSeen` - Notification when messages are seen
 
-## 🎨 Features Overview
+## Features Overview
 
 ### Authentication System
 - Secure user registration and login
@@ -183,7 +183,7 @@ chat-app/
 - Mobile-friendly interface
 - Smooth animations and transitions
 
-## 🚀 Deployment
+## Deployment
 
 ### Frontend (Vercel/Netlify)
 1. Build the client: `npm run build`
@@ -206,7 +206,7 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -214,11 +214,11 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-## 📝 License
+## License
 
 This project is licensed under the ISC License.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Socket.io for real-time communication
 - MongoDB for database services
@@ -226,10 +226,12 @@ This project is licensed under the ISC License.
 - Tailwind CSS for styling
 - React team for the amazing framework
 
-## 📞 Support
+## Support
 
 If you have any questions or need help with the project, please open an issue or contact the maintainers.
 
 ---
 
 **Happy Chatting! 💬**
+
+##Thanks to GreatStack, for I learnt the process of Socket.io and other features listed above
