@@ -234,4 +234,4 @@ If you have any questions or need help with the project, please open an issue or
 
 **Happy Chatting! 💬**
 
-##Thanks to GreatStack, for I learnt the process of Socket.io and other features listed above
+## Thanks to GreatStack, for I learnt the process of Socket.io and other features listed above
