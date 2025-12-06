@@ -110,13 +110,13 @@ app.use("/api/auth", userrouter);
 app.use("/api/messages", messageRouter);
 
 // Optional: serve client build when deployed together on Render
-if (process.env.NODE_ENV === "production") {
-  const __dirname = path.resolve();
-  app.use(express.static(path.join(__dirname, "../client/dist"))); // if server root is /server
-  app.get("/*", (req, res) =>
-    res.sendFile(path.join(__dirname, "../client/dist/index.html"))
-  );
-}
+// if (process.env.NODE_ENV === "production") {
+//   const __dirname = path.resolve();
+//   app.use(express.static(path.join(__dirname, "../client/dist"))); // if server root is /server
+//   app.get("/*", (req, res) =>
+//     res.sendFile(path.join(__dirname, "../client/dist/index.html"))
+//   );
+// }
 
 console.log("JWT_SECRET loaded:", process.env.JWT_SECRET ? "YES" : "NO");
 
